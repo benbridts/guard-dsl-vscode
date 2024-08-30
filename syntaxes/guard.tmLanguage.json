@@ -1,0 +1,53 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Guard",
+	"patterns": [
+		{
+			"name": "comment.line.number-sign.guard",
+			"match": "(#.*)"
+		},
+		{
+			"name": "support.function.guard",
+			"match": "\\b(exists|empty|is_string|is_list|is_struct|is_bool|is_int|is_float)\\b"
+		},
+		{
+			"name": "keyword.control.guard",
+			"match": "\\b(let|when)\\b"
+		},
+		{
+			"name": "keyword.operator.logical.guard",
+			"match": "\\b(or|not|!|in|==|!=|>|>=|<|<=)\\b"
+		},
+		{
+			"name": "variable.other.guard",
+			"match": "%[a-zA-Z0-9_]+"
+		},
+		{
+			"name": "storage.type.guard",
+			"match": "\\b(rule)\\b"
+		},
+		{
+			"name": "string.quoted.single.guard",
+			"begin": "'",
+			"end": "'"
+		},
+		{
+			"name": "string.quoted.double.guard",
+			"begin": "\"",
+			"end": "\""
+		},
+		{
+			"name": "comment.block.documentation.guard",
+			"begin": "<<",
+			"end": ">>"
+		},
+		{
+			"name": "string.regexp.guard",
+			"begin": "/",
+			"end": "/"
+		}
+	],
+	"repository": {
+	},
+	"scopeName": "source.guard"
+}

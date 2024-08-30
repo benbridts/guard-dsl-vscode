@@ -1,0 +1,30 @@
+{
+  "name": "guard-dsl",
+  "displayName": "guard-dsl",
+  "publisher": "benbridts",
+  "description": "CloudFormation Guard DSL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benbridts/guard-dsl-vscode"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "guard",
+      "aliases": ["Guard", "guard"],
+      "extensions": [".guard"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "guard",
+      "scopeName": "source.guard",
+      "path": "./syntaxes/guard.tmLanguage.json"
+    }]
+  }
+}
