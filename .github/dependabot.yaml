@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # let dependabot create update PRs for github actions
+  - package-ecosystem: github-actions
+    directory: /  # has to be / to match .github/workflows
+    schedule:
+      interval: weekly  # runs on monday by default
