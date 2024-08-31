@@ -11,6 +11,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 * test release process ([f188f86](https://github.com/benbridts/guard-dsl-vscode/commit/f188f86b4b7cad4dfbbed26b11b3d2034aa3d560))
 
-## [Unreleased]
+## 0.0.1
 
 - Initial release
