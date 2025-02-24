@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: HaaLeo/publish-vscode-extension@v1
+      - uses: HaaLeo/publish-vscode-extension@v2
         with:
           pat: ${{ secrets.VSCE_MARKETPLACE_TOKEN }}
           registryUrl: https://marketplace.visualstudio.com
